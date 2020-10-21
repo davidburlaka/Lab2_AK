@@ -18,9 +18,6 @@ int main()
 
    cout << "\n\n";
 
-   // Test a getter
-   // This comes for free with the is-a relationship
-   // You need to create it for the has-a relationship
    cout << "The x-coordinate of your circle is: " << circle.getX() << endl;
 
    return 0;
