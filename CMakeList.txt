@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 2.8)
+
+project(Lab2_AK)
+
+add_library(circle
+    circle.h
+    circle.cpp
+    point.h
+    point.cpp
+)
+
+add_executable(Lab2_AK
+  main.cpp
+)
+
+target_link_libraries(Lab2_AK circle)
